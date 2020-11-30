@@ -20,17 +20,19 @@ class CustomersCar extends Migration
             $table->float('car_price');
             $table->integer('motor_size');
             $table->integer('start_production_year');
-            $table->unsignedBigInteger('model_id');
-            $table->unsignedBigInteger('fuel_type_id');
-            $table->unsignedBigInteger('gear_box_id');
-            $table->unsignedBigInteger('differ_id');
-
-            $table->unsignedBigInteger('ban_id');
+            $table->string('mark_name');
+            $table->string('model_name');
+            $table->string('fuel_type');
+            $table->string('gear_box');
+            $table->string('differ');
+            $table->string('detail');   
+            $table->string('ban');
             $table->integer('used_km');
-            $table->unsignedBigInteger('color_id');
-            $table->unsignedBigInteger('city_id');
-            $table->unsignedBigInteger('car_photo_id');
-            $table->unsignedBigInteger('sell_type_id');
+            $table->string('color');
+            $table->string('city');
+           $table->unsignedBigInteger('customer_car_img_id');
+            $table->string('sell_type');
+            $table->foreign('customer_car_img_id')->references('id')->on('customer_car_imgs')->onDelete('cascade');
             $table->timestamps();
         });
     }
