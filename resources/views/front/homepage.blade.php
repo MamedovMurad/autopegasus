@@ -104,11 +104,11 @@
                 <div class="row">
                     <ul class="level1">
                         <li class="level1">
-                            <span class="menu-title no-link">Trink sat!</span>
-                            <ul class="level2">
+                           <a href="#" class="menu-title no-link" style="text-decoration: none"> <span class="menu-title no-link">İndi sat!</span></a>
+                           {{--  <ul class="level2">
                                 <li class="level2"><a target="_self" href='trink-sat.html' class="menu-title link" data-layer="Trink sat!, Teklif Al">Teklif Al</a></li>
                                 <li class="level2"><a target="_self" href='trink-sat/arama/cep-telefonu.html' class="menu-title link" data-layer="Trink sat!, Randevu Sorgula">Randevularımı Yönet</a></li>
-                            </ul>
+                            </ul> --}}
                         </li>
                         <li class="level1">
                             <span class="menu-title">Araç Al</span>
@@ -118,19 +118,19 @@
                                     <ul class="level3">
                                         <li class="level3"><a target="_self" href="ikinci-el/otomobil.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Otomobil">Otomobil</a></li>
                                         <li class="level3"><a target="_self" href="ikinci-el/arazi-suv-pick-up.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Arazi, SUV, Pick-up">Arazi, SUV, Pick-up</a></li>
-                                        <li class="level3"><a target="_self" href="ikinci-el/motosiklet.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Motosiklet">Motosiklet</a></li>
+                                     {{--    <li class="level3"><a target="_self" href="ikinci-el/motosiklet.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Motosiklet">Motosiklet</a></li> --}}
                                         <li class="level3"><a target="_self" href="ikinci-el/minivan-van_panelvan.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Minivan &amp; Panelvan">Minivan &amp; Panelvan</a></li>
-                                        <li class="level3"><a target="_self" href="ikinci-el/ticari-arac.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Ticari Ara&#231;">Ticari Ara&#231;</a></li>
+{{--                                         <li class="level3"><a target="_self" href="ikinci-el/ticari-arac.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Ticari Ara&#231;">Ticari Ara&#231;</a></li>
                                         <li class="level3"><a target="_self" href="ikinci-el/kiralik-araclar.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Kiralık Ara&#231;lar">Kiralık Ara&#231;lar</a></li>
                                         <li class="level3"><a target="_self" href="ikinci-el/hasarli-araclar.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Hasarlı Ara&#231;lar">Hasarlı Ara&#231;lar</a></li>
                                         <li class="level3"><a target="_self" href="ikinci-el/traktor.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Trakt&#246;r">Trakt&#246;r</a></li>
-                                        <li class="level3"><a target="_self" href="ikinci-el/tarim-is-makineleri.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Tarım &amp; İş Makineleri">Tarım &amp; İş Makineleri</a></li>
+                                        <li class="level3"><a target="_self" href="ikinci-el/tarim-is-makineleri.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Tarım &amp; İş Makineleri">Tarım &amp; İş Makineleri</a></li> --}}
                                         <li class="level3"><a target="_self" href="ikinci-el/klasik-araclar.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Klasik Ara&#231;lar">Klasik Ara&#231;lar</a></li>
                                         <li class="level3"><a target="_self" href="ikinci-el/elektrik_li-araclar.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Elektrikli Ara&#231;lar">Elektrikli Ara&#231;lar</a></li>
-                                        <li class="level3"><a target="_self" href="ikinci-el/atv-utv.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - ATV &amp; UTV">ATV &amp; UTV</a></li>
-                                        <li class="level3"><a target="_self" href="ikinci-el/karavan_.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Karavan">Karavan</a></li>
+        {{--                                 <li class="level3"><a target="_self" href="ikinci-el/atv-utv.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - ATV &amp; UTV">ATV &amp; UTV</a></li> --}}
+                  {{--                       <li class="level3"><a target="_self" href="ikinci-el/karavan_.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Karavan">Karavan</a></li>
                                         <li class="level3"><a target="_self" href="ikinci-el/engelli-araci.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Engelli Aracı">Engelli Aracı</a></li>
-                                        <li class="level3"><a target="_self" href="ikinci-el/modifiyeli-arabalar.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Modifiyeli Arabalar">Modifiyeli Arabalar</a></li>
+                                        <li class="level3"><a target="_self" href="ikinci-el/modifiyeli-arabalar.html" class="menu-title link" data-layer="Araç Al, 2.el Kategori - Modifiyeli Arabalar">Modifiyeli Arabalar</a></li> --}}
                                     </ul>
                                 </li>
                                 <li class="level2 " style="height:100%;">
@@ -149,10 +149,10 @@
                                 <li class="level2"><a target="_self" href="ikinci-el.html" class="menu-title link">Tüm 2. El İlanlar</a></li>
                                 <li class="level2"><a target="_self" href="araba-bul.html" class="menu-title link">Bana Araç Öner</a></li>
                                 <li class="level2"><a target="_self" href="arabam-kac-para.html" id="price-suggestion-buycar" class="menu-title link">Arabam Kaç Para?</a></li>
-                                <li class="level2"><a target="_self" href="ikinci-el0c8e.html?membertype=Sahibinden" class="menu-title link">Sahibinden 2. El İlanlar</a></li>
-                                <li class="level2"><a target="_self" href="galeriler.html" class="menu-title link">Galeriler</a></li>
+{{--                                 <li class="level2"><a target="_self" href="ikinci-el0c8e.html?membertype=Sahibinden" class="menu-title link">Sahibinden 2. El İlanlar</a></li> --}}
+{{--                                 <li class="level2"><a target="_self" href="galeriler.html" class="menu-title link">Galeriler</a></li> --}}
                                 <li class="level2"><a target="_self" href="sifir-km.html" class="menu-title link">0 Km Araçlar</a></li>
-                                <li class="level2"><a target="_self" href="sifir-km/yetkili-bayiler.html" class="menu-title link">0 Km Yetkili Bayiler</a></li>
+                             {{--    <li class="level2"><a target="_self" href="sifir-km/yetkili-bayiler.html" class="menu-title link">0 Km Yetkili Bayiler</a></li> --}}
                                 <li class="level2"><a target="_self" href="tum-markalar.html" class="menu-title link">Markalar</a></li>
                             </ul>
                         </li>
@@ -160,7 +160,7 @@
                             <span class="menu-title">Araç Sat</span>
                             <ul class="level2">
                                 <li class="level2"><a target="_self" href="trink-sat.html" class="menu-title link">Trink sat!</a></li>
-                                <li class="level2"><a onclick="collectInstance.record(this, 'UIV-4')" target="_self" href="panelim/ilan-ver/index.html" class="menu-title link">Ücretsiz İlan Ver</a></li>
+                              
                                 <li class="level2"><a target="_self" href='turbolar.html' class="menu-title link">Turbolar</a></li>
                                 <li class="level2"><a target="_self" href="arabam-kac-para.html" id="price-suggestion-sellcar" class="menu-title link">Arabam Kaç Para?</a></li>
                             </ul>
@@ -185,7 +185,7 @@
                             <span class="menu-title">arabam Blog</span>
                             <ul class="level2">
                                 <li class="level2"><a target="_self" href="blog/index.html" class="menu-title link">Blog Anasayfa</a></li>
-                                <li class="level2"><a target="_self" href="blog/category/haberler/index.html" class="menu-title link">Haberler</a></li>
+         {{--                        <li class="level2"><a target="_self" href="blog/category/haberler/index.html" class="menu-title link">Haberler</a></li> --}}
                                 <li class="level2"><a target="_self" href="blog/category/otomobil-testleri/index.html" class="menu-title link">Testler</a></li>
                                 <li class="level2"><a target="_self" href="blog/category/otomobil-inceleme/index.html" class="menu-title link">İnceleme</a></li>
                                 <li class="level2"><a target="_self" href="blog/category/otomobille-yasam/index.html" class="menu-title link">Otomobille Yaşam</a></li>
@@ -219,18 +219,18 @@
                             </div>
                             <i class="icon-arabam-ara"></i>
                         </a>
-                        <div id="header-messages-wrapper" class="dn">
+                        {{-- <div id="header-messages-wrapper" class="dn">
                             <div class="header-badge">
                                 <div class="inner"></div>
                             </div>
                             <i class="icon-arabam-mesaj"></i>
-                        </div>
-                        <div id="header-favorites-wrapper">
+                        </div> --}}
+                        {{-- <div id="header-favorites-wrapper">
                             <div class="header-badge dn">
                                 <div class="inner"></div>
                             </div>
                             <i class="icon-arabam-fav"></i>
-                        </div>
+                        </div> --}}
                         <div id="header-notification-wrapper" class="dn">
                             <div class="first-wrapper">
                                 <div class="header-badge">
@@ -256,10 +256,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="header-non-authenticated-navigator" class="dn">
+                      {{--   <div id="header-non-authenticated-navigator" class="dn">
                             <a target="_self" href='uyelik823e.html?returnUrl=%2F' rel="nofollow"> Giriş Yap </a>
                             <span> / </span><a target="_self" href='uye-ol823e.html?returnUrl=%2F' rel="nofollow"> Üye Ol </a>
-                        </div>
+                        </div> --}}
                         <div id="header-authenticated-nav" class="dn">
                             <div id="header-user-circle">
                                 <div class="circle"></div>
@@ -284,7 +284,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pr create-new-advert-wrapper" id="header-create-new-advert-button">
+               {{--          <div class="pr create-new-advert-wrapper" id="header-create-new-advert-button">
                             <a rel="nofollow" class="btn getAdvertBtn semi-bold" href="javascript:;"> Ücretsiz İlan Ver </a>
                             <div id="get-advert-wrapper" class="get-advert-wrapper pa ">
                                 <div class="col-md-6 left">
@@ -311,7 +311,7 @@
                                     <a href="trink-sat.html" id="header-trinksat" class="btn btn-block btn-blueblack-2018">Trink sat!</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -924,75 +924,6 @@
 
 
 
-
-
-            <div class="row index-test-haber">
-                <div class="ad-boxes-container">
-                    <h2 class="homePageHeader cf"> Haberler  <a href="blog/category/haberler/index.html" class="fr tar color-black bold font-default">Tüm Haberler</a>  </h2>
-                    <div class="row" id="showCaseNews">
-                        <div class="col-md-3 col-xs-6 ">
-                            <div class="listing-box-item lbi-extended cf">
-                                <div class="inner-container bg-white cf">
-                                    <a class="w100 fl" href="blog/genel/2020-formula-1-bahreyn-gp-saatleri-belli-oldu/index.html" title="2020 Formula 1 Bahreyn GP Saatleri Belli Oldu!">
-                                        <div class="image-container w100 fl msnc-min-imgh" >  <img class="w100" data-src="https://arb-img1.mncdn.com/HaberFotograflari/wp/uploads/2020/11/dcd1807ap755-300x169.jpg" src="../arbimg1.mncdn.com/ilanfotograflari/noImage/01/01/1/noimage5_160x120.jpg" />  </div>
-                                    </a>
-                                    <div class="content-container w100 fl pl10 pr10"><a href="blog/genel/2020-formula-1-bahreyn-gp-saatleri-belli-oldu/index.html" class="w100 color-grey5 font-default-plus bold" title="2020 Formula 1 Bahreyn GP Saatleri Belli Oldu!">2020 Formula 1 Bahreyn GP Saatleri Belli Oldu!</a></div>
-                                    <div class="content-container w100 fl pl10 pr10">
-                                        <div class="model-name ">
-                                            <p>Koronavirüs pandemisi nedeniyle Formula 1 programı değiştirilmişti. Bu değişikliklerden bir diğeri ise Bahreyn&#8217;de yapılacak iki yarış. Yarışların ilki 27-28-29 Kasım&#8217;da gerçekleştirilecek....
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-xs-6 ">
-                            <div class="listing-box-item lbi-extended cf">
-                                <div class="inner-container bg-white cf">
-                                    <a class="w100 fl" href="blog/haberler/motorin-icin-buyuk-zam-haberi-geldi/index.html" title="Motorin İ&#231;in B&#252;y&#252;k Zam Haberi Geldi!">
-                                        <div class="image-container w100 fl msnc-min-imgh" >  <img class="w100" data-src="https://arb-img1.mncdn.com/HaberFotograflari/wp/uploads/2020/10/son-dakika-benzin-ve-motorine-okkal-ZAND_cover-300x188.jpg" src="../arbimg1.mncdn.com/ilanfotograflari/noImage/01/01/1/noimage5_160x120.jpg" />  </div>
-                                    </a>
-                                    <div class="content-container w100 fl pl10 pr10"><a href="blog/haberler/motorin-icin-buyuk-zam-haberi-geldi/index.html" class="w100 color-grey5 font-default-plus bold" title="Motorin İ&#231;in B&#252;y&#252;k Zam Haberi Geldi!">Motorin İçin Büyük Zam Haberi Geldi!</a></div>
-                                    <div class="content-container w100 fl pl10 pr10">
-                                        <div class="model-name ">
-                                            <p>Geçtiğimiz gün benzine gelen büyük zamdan sonra motorin de aşağı kalmadı. Motorine gelen zam da en az benzin zammı kadar büyük.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-xs-6 ">
-                            <div class="listing-box-item lbi-extended cf">
-                                <div class="inner-container bg-white cf">
-                                    <a class="w100 fl" href="blog/haberler/benzin-fiyatina-buyuk-zam-aciklandi/index.html" title="Benzin Fiyatına B&#252;y&#252;k Zam A&#231;ıklandı!">
-                                        <div class="image-container w100 fl msnc-min-imgh" >  <img class="w100" data-src="https://arb-img1.mncdn.com/HaberFotograflari/wp/uploads/2020/10/son-dakika-benzin-ve-motorine-okkal-ZAND_cover-300x188.jpg" src="../arbimg1.mncdn.com/ilanfotograflari/noImage/01/01/1/noimage5_160x120.jpg" />  </div>
-                                    </a>
-                                    <div class="content-container w100 fl pl10 pr10"><a href="blog/haberler/benzin-fiyatina-buyuk-zam-aciklandi/index.html" class="w100 color-grey5 font-default-plus bold" title="Benzin Fiyatına B&#252;y&#252;k Zam A&#231;ıklandı!">Benzin Fiyatına Büyük Zam Açıklandı!</a></div>
-                                    <div class="content-container w100 fl pl10 pr10">
-                                        <div class="model-name ">
-                                            <p>Enerji Petrol Gaz İkmal İstasyonları İşveren Sendikası’nın (EPGİS) Twitter üzerinden yaptığı açıklamaya göre bu gece yarısından itibaren geçerli olmak üzere benzin fiyatına büyük bir zam yapılacak....
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-xs-6 ">
-                            <div class="listing-box-item lbi-extended cf">
-                                <div class="inner-container bg-white cf">
-                                    <a class="w100 fl" href="blog/haberler/aston-martin-vantage-paket-halinde-satisa-sundu/index.html" title="Aston Martin Vantage Modelleri Paket Halinde Sundu!">
-                                        <div class="image-container w100 fl msnc-min-imgh" >  <img class="w100" data-src="https://arb-img1.mncdn.com/HaberFotograflari/wp/uploads/2020/11/vantage-legacy-collection-6-300x169.jpg" src="../arbimg1.mncdn.com/ilanfotograflari/noImage/01/01/1/noimage5_160x120.jpg" />  </div>
-                                    </a>
-                                    <div class="content-container w100 fl pl10 pr10"><a href="blog/haberler/aston-martin-vantage-paket-halinde-satisa-sundu/index.html" class="w100 color-grey5 font-default-plus bold" title="Aston Martin Vantage Modelleri Paket Halinde Sundu!">Aston Martin Vantage Modelleri Paket Halinde Sundu!</a></div>
-                                    <div class="content-container w100 fl pl10 pr10">
-                                        <div class="model-name ">
-                                            <p>Aston Martin, son nesil fabrika Vantage yarış arabalarını üçlü bir paket halinde satıyor. Araçların hepsi de son derece önemli bir yarış geçmişine sahip.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="testimonials-widget-wrapper">
                     <h3 class="homePageHeader tac bold"> Birlikte Büyüyoruz <a target="_self" href="uye-hikayeleri.html" class="all-showcase fr" onclick="setDataLayer('Ana Sayfa','Testimonials','Tumumu Gor','gaEvent',true);"><span class="font-default bold">Tümünü Gör</span></a></h3>
@@ -1026,27 +957,7 @@
     </div>
 </div>
 <footer id="js-hook-footer-detail-scroll" class=" site-footer ">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="mobile-app-buttons fl">
-                    <a href="https://play.google.com/store/apps/details?id=com.dogan.arabam" class="mobile-app-button">
-                        <div class="icon"><i class="icon-arabam-android mobil-icon"></i></div>
-                        <div class="text"><strong class="db">Google Play’den</strong><span>indirebilirsiniz.</span></div>
-                    </a>
-                    <a href="https://itunes.apple.com/us/app/arabam-com/id369111943?mt=8" class="mobile-app-button">
-                        <div class="icon"><i class="icon-arabam-apple mobil-icon"></i></div>
-                        <div class="text"><strong class="db">App Store’dan</strong><span>indirebilirsiniz.</span></div>
-                    </a>
-                    <a href="https://appgallery7.huawei.com/#/app/C101186941" class="mobile-app-button">
-                        <div class="icon"><i class="icon-arabam-huawei mobil-icon"></i></div>
-                        <div class="text"><strong class="db">AppGallery'den</strong><span>indirebilirsiniz.</span></div>
-                    </a>
-                </div>
-                <div class="social-links fr"><a class="" rel="nofollow" href="http://www.facebook.com/arabamcom" target="_blank"><i class="icon-arabam-facebook share-icon" aria-hidden="true"></i></a><a class="" rel="nofollow" href="http://twitter.com/arabamcom" target="_blank"><i class="icon-arabam-twitter share-icon" aria-hidden="true"></i></a><a class="" rel="nofollow" href="https://plus.google.com/108778486703059250636" target="_blank"><i class="icon-arabam-google share-icon" aria-hidden="true"></i></a><a class="" rel="nofollow" href="https://www.youtube.com/user/arabamcomvideo" target="_blank"><i class="icon-arabam-youtube share-icon" aria-hidden="true"></i></a><a class="" rel="nofollow" href="https://www.instagram.com/arabamcom/" target="_blank"><i class="icon-arabam-instagram share-icon" aria-hidden="true"></i></a></div>
-            </div>
-        </div>
-    </div>
+
     <div class="footer-area">
         <div class="container">
             <div class="row">
@@ -1189,37 +1100,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="w100">
-                    <div class="call-center cf">
-                        <div class="text fl"><span class="db call-center-label">Müşteri Hizmetleri</span><strong class="db call-center-phone">0 850 759 90 00</strong></div>
-                        <div class="text fr"><a class="db call-center-copyright">© 2000-2020 arabam.com</a></div>
-                    </div>
-                </div>
+            
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
-        <div class="container footer-container">
-            <div class="row">
-                <div class="fl ilab-text">
-                    <p class="">arabam.com <i style='background-image: url(../arbimg1.mncdn.com/assets/dist/img/ilap-logo3be8.png?v=20201126165301)' class="footer-ilab-logo"></i> iştirakidir.</p>
-                </div>
-                <div class="ilab-partners mt12 fr">
-                    <ul>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://www.kariyer.net/" rel="nofollow" target="_blank">Kariyer.net</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://isinolsun.com/" rel="nofollow" target="_blank">İsinolsun.com</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://www.emlakjet.com/" rel="nofollow" target="_blank">Emlakjet</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://www.sigortam.net/" rel="nofollow" target="_blank">Sigortam.net</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://www.hangikredi.com/" rel="nofollow" target="_blank">Hangikredi.com</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://www.neredekal.com/" rel="nofollow" target="_blank">Neredekal.com</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://www.chemorbis.com/tr/" rel="nofollow" target="_blank">ChemOrbis</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://www.cimri.com/" rel="nofollow" target="_blank">Cimri.com</a></li>
-                        <li class="ilab-partner-item"><a class="ilab-partner" href="https://tr.steelorbis.com/" rel="nofollow" target="_blank">SteelOrbis</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <p style="width: 100%; font-size: 10px; text-align: center; clear: both; color: #CCC;background: #f0f0f0">27.11.2020 07:57:06</p>
 </footer>
 <script> setDataLayer = function (category, action, label, event, nonInteraction) { var dl = window.dataLayer; if (nonInteraction) { dl.push({ Category: category, Action: action, Label: label, event: event, nonInteraction: true }); } else { dl.push({ Category: category, Action: action, Label: label, event: event }); } } </script>
