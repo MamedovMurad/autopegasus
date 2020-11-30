@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\Admin;
+use Illuminate\Support\Facades\Auth;
+
+class AuthController extends Controller
+{
+    public function index(){
+        return view('back.login.login');
+    }
+
+    public function signin(Request $request){
+
+        if (Auth::attempt(['email'=>$request->email,'password'=>$request->password])){
+            return redirect()->route('panel');
+        }
+        return view('back.login.login')->withErrors('Email or password error!!!');
+
+    }
+
+public function logout(){
+        Auth::logout();
+        return redirect()->route('login');
+}
+
+
+
+}
