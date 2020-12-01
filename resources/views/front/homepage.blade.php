@@ -1,4 +1,6 @@
-
+@extends('front.Layout.master')
+@section('content')
+    
 
     <!-- Main Wrapper Start -->
     <!--header area start-->
@@ -30,10 +32,10 @@
                                             <li><a href="wishlist.html">Wishlist</a></li>
                                         </ul>
                                     </li>
-                                    <li class="language"><a href="#"><img src="assets/img/logo/language.png" alt="">en-gb<i class="ion-ios-arrow-down"></i></a>
+                                    <li class="language"><a href="#"><img src="{{asset('/front/autima/')}}/assets/img/logo/language.png" alt="">en-gb<i class="ion-ios-arrow-down"></i></a>
                                         <ul class="dropdown_language">
-                                            <li><a href="#"><img src="assets/img/logo/language.png" alt=""> English</a></li>
-                                            <li><a href="#"><img src="assets/img/logo/language2.png" alt=""> Germany</a></li>
+                                            <li><a href="#"><img src="{{asset('/front/autima/')}}/assets/img/logo/language.png" alt=""> English</a></li>
+                                            <li><a href="#"><img src="{{asset('/front/autima/')}}/assets/img/logo/language2.png" alt=""> Germany</a></li>
                                         </ul>
                                     </li>
                                     <li class="currency"><a href="#">$ USD<i class="ion-ios-arrow-down"></i></a>
@@ -60,7 +62,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index.html"><img src="{{asset('/front/autima/')}}/assets/img/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-6">
@@ -105,7 +107,7 @@
             </div>
             <div class="cart_item">
                 <div class="cart_img">
-                    <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                    <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/s-product/product.jpg" alt=""></a>
                 </div>
                 <div class="cart_info">
                     <a href="#">JBL Flip 3 Splasroof Portable Bluetooth 2</a>
@@ -120,7 +122,7 @@
             </div>
             <div class="cart_item">
                 <div class="cart_img">
-                    <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                    <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/s-product/product2.jpg" alt=""></a>
                 </div>
                 <div class="cart_info">
                     <a href="#">Koss Porta Pro On Ear Headphones </a>
@@ -216,7 +218,7 @@
                                                 </li>
                                             </ul>
                                             <div class="banner_static_menu">
-                                                <a href="shop.html"><img src="assets/img/bg/banner1.jpg" alt=""></a>
+                                                <a href="shop.html"><img src="{{asset('/front/autima/')}}/assets/img/bg/banner1.jpg" alt=""></a>
                                             </div>
                                         </div>
                                     </li>
@@ -282,8 +284,8 @@
                                 </li>
                                 <li class="language"><a href="#"><img src="assets/img/logo/language.png" alt="">en-gb<i class="ion-ios-arrow-down"></i></a>
                                     <ul class="dropdown_language">
-                                        <li><a href="#"><img src="assets/img/logo/language.png" alt=""> English</a></li>
-                                        <li><a href="#"><img src="assets/img/logo/language2.png" alt=""> Germany</a></li>
+                                        <li><a href="#"><img src="{{asset('/front/autima/')}}/assets/img/logo/language.png" alt=""> English</a></li>
+                                        <li><a href="#"><img src="{{asset('/front/autima/')}}/assets/img/logo/language2.png" alt=""> Germany</a></li>
                                     </ul>
                                 </li>
                                 <li class="currency"><a href="#">$ USD<i class="ion-ios-arrow-down"></i></a>
@@ -441,7 +443,7 @@
                                                 <li><a href="#">Lighting & Studio</a></li>
                                             </ul>
                                             <div class="categorie_banner">
-                                                <a href="#"><img src="assets/img/bg/banner2.jpg" alt=""></a>
+                                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/bg/banner2.jpg" alt=""></a>
                                             </div>
                                         </li>
 
@@ -589,7 +591,7 @@
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="slider_area owl-carousel">
-                        <div class="single_slider d-flex align-items-center" data-bgimg="assets/img/slider/slider1.jpg">
+                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/slider/slider1.jpg">
                             <div class="slider_content">
                                 <h2>Top Quality</h2>
                                 <h1>Aftermarket Turbocharger Specialist</h1>
@@ -597,14 +599,14 @@
                             </div>
 
                         </div>
-                        <div class="single_slider d-flex align-items-center" data-bgimg="assets/img/slider/slider2.jpg">
+                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/slider/slider2.jpg">
                             <div class="slider_content">
                                 <h2>Height - Quality</h2>
                                 <h1>The Parts Of shock Absorbers & Brake Kit</h1>
                                 <a class="button" href="shop.html">shopping now</a>
                             </div>
                         </div>
-                        <div class="single_slider d-flex align-items-center" data-bgimg="assets/img/slider/slider3.jpg">
+                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/slider/slider3.jpg">
                             <div class="slider_content">
                                 <h2>Engine Oils</h2>
                                 <h1>Top Quality Oil For Every Vehicle</h1>
@@ -628,7 +630,7 @@
                     <div class="shipping_inner">
                         <div class="single_shipping">
                             <div class="shipping_icone">
-                                <img src="assets/img/about/shipping1.png" alt="">
+                                <img src="{{asset('/front/autima/')}}/assets/img/about/shipping1.png" alt="">
                             </div>
                             <div class="shipping_content">
                                 <h2>Free Shipping</h2>
@@ -637,7 +639,7 @@
                         </div>
                         <div class="single_shipping">
                             <div class="shipping_icone">
-                                <img src="assets/img/about/shipping2.png" alt="">
+                                <img src="{{asset('/front/autima/')}}/assets/img/about/shipping2.png" alt="">
                             </div>
                             <div class="shipping_content">
                                 <h2>Support 24/7</h2>
@@ -646,7 +648,7 @@
                         </div>
                         <div class="single_shipping">
                             <div class="shipping_icone">
-                                <img src="assets/img/about/shipping3.png" alt="">
+                                <img src="{{asset('/front/autima/')}}/assets/img/about/shipping3.png" alt="">
                             </div>
                             <div class="shipping_content">
                                 <h2>100% Money Back</h2>
@@ -655,7 +657,7 @@
                         </div>
                         <div class="single_shipping">
                             <div class="shipping_icone">
-                                <img src="assets/img/about/shipping4.png" alt="">
+                                <img src="{{asset('/front/autima/')}}/assets/img/about/shipping4.png" alt="">
                             </div>
                             <div class="shipping_content">
                                 <h2>Payment Secure</h2>
@@ -701,8 +703,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product1.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -782,8 +784,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product4.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -822,8 +824,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product6.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product7.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -862,8 +864,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product8.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product9.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-07%</span>
                                 </div>
@@ -903,8 +905,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product10.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -944,8 +946,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product13.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -988,8 +990,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product10.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1028,8 +1030,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product13.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-47%</span>
                                 </div>
@@ -1069,8 +1071,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product14.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product14.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product15.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1109,8 +1111,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product16.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product17.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product16.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product17.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1149,8 +1151,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product18.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product18.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product1.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-07%</span>
                                 </div>
@@ -1190,8 +1192,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product3.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1231,8 +1233,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product4.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1275,8 +1277,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product6.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product7.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1315,8 +1317,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product8.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product9.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-47%</span>
                                 </div>
@@ -1356,8 +1358,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product10.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1396,8 +1398,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product7.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1436,8 +1438,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product14.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product13.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product14.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-07%</span>
                                 </div>
@@ -1477,8 +1479,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product16.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product15.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product16.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1518,8 +1520,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product17.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product18.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product17.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product18.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -1572,7 +1574,7 @@
                             <div class="single_items">
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Body Parts</a></h3>
@@ -1589,7 +1591,7 @@
                                 </div>
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured1.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured1.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Brake Parts</a></h3>
@@ -1608,7 +1610,7 @@
                             <div class="single_items">
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured2.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured2.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Lighting</a></h3>
@@ -1625,7 +1627,7 @@
                                 </div>
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured3.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured3.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Moto Oil</a></h3>
@@ -1644,7 +1646,7 @@
                             <div class="single_items">
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured4.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured4.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Turbo Systems</a></h3>
@@ -1661,7 +1663,7 @@
                                 </div>
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured5.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured5.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Wheels & Tires</a></h3>
@@ -1680,7 +1682,7 @@
                             <div class="single_items">
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured3.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured3.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Body Parts</a></h3>
@@ -1697,7 +1699,7 @@
                                 </div>
                                 <div class="single_featured">
                                     <div class="featured_thumb">
-                                        <a href="#"><img src="assets/img/featured/featured5.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/featured/featured5.jpg" alt=""></a>
                                     </div>
                                     <div class="featured_content">
                                         <h3 class="product_name"><a href="#">Brake Parts</a></h3>
@@ -1748,7 +1750,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="single_product">
@@ -1768,7 +1770,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="single_product">
@@ -1789,7 +1791,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product13.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="single_product">
@@ -1810,7 +1812,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product15.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1846,7 +1848,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="single_product">
@@ -1867,7 +1869,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product6.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="single_product">
@@ -1887,7 +1889,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product7.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="single_product">
@@ -1908,7 +1910,7 @@
                                 </div>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product8.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -1926,7 +1928,7 @@
                     <div class="banner_container">
                         <div class="single_banner">
                             <div class="banner_thumb">
-                                <a href="#"><img src="assets/img/bg/banner3.jpg" alt=""></a>
+                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/bg/banner3.jpg" alt=""></a>
                                 <div class="banner_text">
                                     <h3>Car Audio</h3>
                                     <h2>Super Natural Sound</h2>
@@ -1936,7 +1938,7 @@
                         </div>
                         <div class="single_banner">
                             <div class="banner_thumb">
-                                <a href="#"><img src="assets/img/bg/banner4.jpg" alt=""></a>
+                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/bg/banner4.jpg" alt=""></a>
                                 <div class="banner_text">
                                     <h3>All - New</h3>
                                     <h2>Perfomance Parts</h2>
@@ -1966,8 +1968,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product19.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product19.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -2006,8 +2008,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product13.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-47%</span>
                                 </div>
@@ -3410,3 +3412,4 @@
     <!--news letter popup start-->
 
 
+    @endsection
