@@ -966,8 +966,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .header_middle {
-  background: #ffd54c;
-  padding: 25px 0;
+  
+  padding: 5px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_middle {
@@ -1010,9 +1010,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .search_box {
   position: relative;
-  width: 540px;
+  width: 660px;
   background: #fff;
   border-radius: 5px;
+ 
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .search_box {
@@ -1020,6 +1021,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 .search_box input::-webkit-input-placeholder {
+  box-shadow: 07 px 2px 0.6px 2px #444;
   /* Chrome/Opera/Safari */
   color: #9e9e9e;
 }
@@ -1036,6 +1038,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #9e9e9e;
 }
 .search_box input {
+  box-shadow: -1px 0px 4.6px -1.2px #444;
   border: 0;
   background: none;
   width: 100%;
