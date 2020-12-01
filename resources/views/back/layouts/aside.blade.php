@@ -23,7 +23,7 @@
                     </ul>
                 </li>
 
-                <li>
+    {{--            <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-layout"></i>
                         <span key="t-layouts">HomePage</span>
@@ -32,27 +32,27 @@
                         <li><a href="layouts-horizontal.html" key="t-horizontal">Slider</a></li>
 
                     </ul>
-                </li>
+                </li>--}}
 
                 <li>
-                    <a href="" >
+                    <a href="attributes" >
                         <i class="bx bx-layout"></i>
-                        <span key="t-layouts">Pages</span>
+                        <span key="t-layouts">Attributes</span>
                     </a>
 
                 </li>
 
 
 
-                <li>
+   {{--             <li>
                     <a href="" >
                         <i class="bx bx-layout"></i>
                         <span key="t-layouts">Services</span>
                     </a>
 
-                </li>
+                </li>--}}
 
-                <li>
+             {{--   <li>
                     <a href="" >
                         <i class="bx bx-layout"></i>
                         <span key="t-layouts">Blog</span>
@@ -92,7 +92,7 @@
 
 
 
-
+--}}
 
 
 

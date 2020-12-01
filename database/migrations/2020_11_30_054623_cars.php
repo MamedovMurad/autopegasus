@@ -19,7 +19,9 @@ class Cars extends Migration
             $table->string('car_name');
             $table->string('car_slug');
             $table->float('car_price');
+            $table->float('discount');
             $table->integer('motor_size');
+
             $table->integer('start_production_year');
             $table->unsignedBigInteger('model_id');
             $table->unsignedBigInteger('fuel_type_id');

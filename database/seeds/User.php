@@ -2,8 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-
-class Admin extends Seeder
+class User extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,7 +11,7 @@ class Admin extends Seeder
      */
     public function run()
     {
-        DB::table('admins')->insert([
+        DB::table('users')->insert([
             'email'=>'webmaster@avtopegasus.az',
             'password'=>bcrypt(102030)
         ]);

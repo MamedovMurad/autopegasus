@@ -25,3 +25,7 @@
         </div>
         <!-- End Page-content -->
 @endsection
+@section('script')
+
+@endsection
+
