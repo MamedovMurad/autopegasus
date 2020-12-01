@@ -2129,8 +2129,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product18.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product18.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product1.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-07%</span>
                                 </div>
@@ -2170,8 +2170,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product3.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -2211,8 +2211,8 @@
                                 <p class="manufacture_product"><a href="#">Accessories</a></p>
                             </div>
                             <div class="product_thumb">
-                                <a class="primary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                <a class="primary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product4.jpg" alt=""></a>
+                                <a class="secondary_img" href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                                 <div class="label_product">
                                     <span class="label_sale">-57%</span>
                                 </div>
@@ -2261,22 +2261,22 @@
                 <div class="col-12">
                     <div class="brand_container owl-carousel">
                         <div class="single_brand">
-                            <a href="#"><img src="assets/img/brand/brand.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/brand/brand.png" alt=""></a>
                         </div>
                         <div class="single_brand">
-                            <a href="#"><img src="assets/img/brand/brand1.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/brand/brand1.png" alt=""></a>
                         </div>
                         <div class="single_brand">
-                            <a href="#"><img src="assets/img/brand/brand2.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/brand/brand2.png" alt=""></a>
                         </div>
                         <div class="single_brand">
-                            <a href="#"><img src="assets/img/brand/brand3.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/brand/brand3.png" alt=""></a>
                         </div>
                         <div class="single_brand">
-                            <a href="#"><img src="assets/img/brand/brand4.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/brand/brand4.png" alt=""></a>
                         </div>
                         <div class="single_brand">
-                            <a href="#"><img src="assets/img/brand/brand2.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/brand/brand2.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -2299,7 +2299,7 @@
                         <div class="small_product_items small_product_active">
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product1.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2322,7 +2322,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2344,7 +2344,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product3.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2366,7 +2366,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product4.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2389,7 +2389,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2412,7 +2412,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product6.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2435,7 +2435,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product1.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2458,7 +2458,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2480,7 +2480,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product3.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2502,7 +2502,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product4.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2525,7 +2525,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2548,7 +2548,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product6.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2582,7 +2582,7 @@
                         <div class="small_product_items small_product_active">
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product8.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2605,7 +2605,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product9.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2627,7 +2627,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product4.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2649,7 +2649,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product10.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2672,7 +2672,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2695,7 +2695,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2718,7 +2718,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product8.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2741,7 +2741,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product9.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2763,7 +2763,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product4.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2785,7 +2785,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product10.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2808,7 +2808,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2831,7 +2831,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2865,7 +2865,7 @@
                         <div class="small_product_items small_product_active">
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product10.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2888,7 +2888,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2910,7 +2910,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2932,7 +2932,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product13.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2955,7 +2955,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product14.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product14.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -2978,7 +2978,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product15.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -3001,7 +3001,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product10.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -3024,7 +3024,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product11.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -3046,7 +3046,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product12.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -3068,7 +3068,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product13.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -3091,7 +3091,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product14.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product14.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -3114,7 +3114,7 @@
                             </div>
                             <div class="single_product_items">
                                 <div class="product_thumb">
-                                    <a href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
+                                    <a href="product-details.html"><img src="{{asset('/front/autima/')}}/assets/img/product/product15.jpg" alt=""></a>
                                 </div>
                                 <div class="product_content">
                                     <div class="product_name">
@@ -3180,7 +3180,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="widgets_container contact_us">
                             <div class="footer_logo">
-                                <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/logo/logo.png" alt=""></a>
                             </div>
                             <div class="footer_contact">
                                 <p>We are a team of designers and developers that
@@ -3250,7 +3250,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="footer_payment text-right">
-                            <a href="#"><img src="assets/img/icon/payment.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/icon/payment.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -3275,38 +3275,38 @@
                                     <div class="tab-content product-details-large">
                                         <div class="tab-pane fade show active" id="tab1" role="tabpanel">
                                             <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/product/product1.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="tab2" role="tabpanel">
                                             <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="tab3" role="tabpanel">
                                             <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/product/product3.jpg" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="tab4" role="tabpanel">
                                             <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                                <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="modal_tab_button">
                                         <ul class="nav product_navactive owl-carousel" role="tablist">
                                             <li>
-                                                <a class="nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                                <a class="nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false"><img src="{{asset('/front/autima/')}}/assets/img/product/product1.jpg" alt=""></a>
                                             </li>
                                             <li>
-                                                <a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                                <a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false"><img src="{{asset('/front/autima/')}}/assets/img/product/product2.jpg" alt=""></a>
                                             </li>
                                             <li>
-                                                <a class="nav-link button_three" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                                <a class="nav-link button_three" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"><img src="{{asset('/front/autima/')}}/assets/img/product/product3.jpg" alt=""></a>
                                             </li>
                                             <li>
-                                                <a class="nav-link" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                                <a class="nav-link" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false"><img src="{{asset('/front/autima/')}}/assets/img/product/product5.jpg" alt=""></a>
                                             </li>
 
                                         </ul>
