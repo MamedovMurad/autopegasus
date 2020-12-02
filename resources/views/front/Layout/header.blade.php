@@ -123,30 +123,30 @@
                                             <ul class="mega_menu_inner">
                                                 <li><a href="javascript:void(0)">Kategoriler</a>
                                                     <ul>
-                                                        <li><a href="shop-fullwidth.html">Otomobil</a></li>
-                                                        <li><a href="shop-fullwidth-list.html">Arazi, suv, pick-up</a></li>
-                                                        <li><a href="shop-right-sidebar.html">Minivan & Panelvan</a></li>
-                                                        <li><a href="shop-right-sidebar-list.html">Klasik Aracklar</a></li>
-                                                        <li><a href="shop-list.html">Elektrikli Aracklar</a></li>
+                                                        <li><a href="shop-fullwidth.html">Avtomobil</a></li>
+                                                        <li><a href="shop-fullwidth-list.html">SUV , Ofroader , Pikap</a></li>
+                                                        <li><a href="shop-right-sidebar.html">Minivan & Furqon</a></li>
+                                                        <li><a href="shop-right-sidebar-list.html">Klassik Avtomobil</a></li>
+                                                        <li><a href="shop-list.html">Elektrikli Avtomobil</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="javascript:void(0)">Kasa Tipleri</a>
+                                                <li><a href="javascript:void(0)">Kuzov Tipinə görə</a>
                                                     <ul>
                                                         <li><a href="cart.html">Sedan</a></li>
-                                                        <li><a href="wishlist.html">Hatcback</a></li>
-                                                        <li><a href="checkout.html">Station wagon</a></li>
-                                                        <li><a href="my-account.html">Suv/Pick-up</a></li>
-                                                        <li><a href="404.html">Coupe</a></li>
-                                                        <li><a href="404.html">Cabrio</a></li>
-                                                        <li><a href="404.html">Van/ Panelvan</a></li>
-                                                        <li><a href="404.html">Minibus</a></li>
+                                                        <li><a href="wishlist.html">Hetçbek</a></li>
+                                                        <li><a href="checkout.html">Universal</a></li>
+                                                        <li><a href="my-account.html">Ofroader , Pikap</a></li>
+                                                        <li><a href="404.html">Kupe</a></li>
+                                                        <li><a href="404.html">Kabriolet</a></li>
+                                                        <li><a href="404.html">Van/ Furqon</a></li>
+                                                        <li><a href="404.html">Mikroavtobus</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="javascript:void(0)">Tum 2 .el Ilanlar</a>
+                                                <li><a href="javascript:void(0)">Bütün elanlar</a>
                                                     <ul>
-                                                        <li><a href="product-details.html">Bana arac oner</a></li>
-                                                        <li><a href="product-sidebar.html">pArabam kac para</a></li>
-                                                        <li><a href="product-grouped.html">markalar</a></li>
+                                                        <li><a href="product-details.html">Məsləhətli nə var?</a></li>
+                                                        <li><a href="product-sidebar.html">Maşınım neçeye gedər?</a></li>
+                                                        <li><a href="product-grouped.html">Markalar</a></li>
                    
 
                                                     </ul>
@@ -165,7 +165,7 @@
                                             <li><a href="blog-sidebar.html">arabam kac para</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Hizmetlerimiz <i class="fa fa-angle-down"></i></a>
+                                    <li><a href="#">XİDMƏTLƏRİMİZ <i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu pages">
                                             <li><a href="about.html">Arabam kac para</a></li>
                          
@@ -196,7 +196,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6">
                         <div class="logo">
-                            <a href="index.html"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/image.png" alt=""></a>
+                            <a href="index.html"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/Logo_Pegasus.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-6">

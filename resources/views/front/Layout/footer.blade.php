@@ -11,7 +11,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="widgets_container contact_us">
                         <div class="footer_logo">
-                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/image.png" alt=""></a>
+                            <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/Logo_Pegasus.png" alt=""></a>
                         </div>
                         <div class="footer_contact">
                             <p>We are a team of designers and developers that
