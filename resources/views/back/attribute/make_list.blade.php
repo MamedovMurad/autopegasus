@@ -3,6 +3,7 @@
     <!-- ============================================================== -->
     <!-- Start right Content here -->
     <!-- ============================================================== -->
+
     <div class="main-content">
         <div class="page-content">
             <div class="container-fluid">
@@ -23,28 +24,73 @@
                 <!-- end page title -->
 
                 <div class="row">
+{{--                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif--}}
                     <div class="col-12">
+                        <button type="button" class="btn btn-success btn-rounded waves-effect waves-light mb-2 mr-2" data-toggle="modal" data-target="#myModal">
+                            <i class="mdi mdi-plus mr-1"></i> Add New Make</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="outer-repeater" id="make_add" >
+                                            <div data-repeater-list="outer-group" class="outer">
+                                                <div data-repeater-item="" class="outer">
+                                                    <div class="form-group row mb-4">
+                                                        @csrf
+                                                        <label for="taskname" class="col-form-label col-lg-6">Make Name</label>
+                                                        <div class="col-lg-12">
+                                                            <input id="taskname" name="make_name" type="text" class="form-control" placeholder="Enter Make Name...">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-start">
+                                                <div class="col-lg-4">
+                                                    <button type="button" id="make_click" class="btn btn-primary">Create Make</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                         <div class="card">
                             <div class="card-body">
 
-                                <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap    " style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                                     <thead>
                                     <tr>
                                         <th>Make Name</th>
-
+                                        <th>Action</th>
                                     </tr>
                                     </thead>
-
-
                                     <tbody>
                                     @foreach($makes as $make)
                                     <tr>
                                         <td>{{$make->make_name}}</td>
-                           {{--             <td>System Architect</td>
-                                        <td>Edinburgh</td>
-                                        <td>61</td>
-                                        <td>2011/04/25</td>
-                                        <td>$320,800</td>--}}
+                                        <td>
+                                            <a href="javascript:void(0);" class="mr-3 text-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                            <a href="javascript:void(0);" class="text-danger" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><i class="mdi mdi-close font-size-18"></i></a>
+                                        </td>
                                     </tr>
                                     @endforeach
 
@@ -90,4 +136,37 @@
 
         <!-- Datatable init js -->
         <script src="{{asset('admin')}}/assets/js/pages/datatables.init.js"></script>
+
+
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+        <script>
+
+
+            $( document ).ready(function() {
+                var button = document.querySelector('#make_click')
+                button.addEventListener('click', function (e){
+                    e.preventDefault();
+                    $.ajax({
+                        type:'POST',
+                        url: "{{route('attributes.store')}}",
+                        //  url:'http://127.0.0.1:8000/back/attributes',
+                        data:$('#make_add').serialize(),
+                        success:function (e){
+
+                        }
+
+                    });
+                })
+
+
+            });
+
+        </script>
+
 @endsection
