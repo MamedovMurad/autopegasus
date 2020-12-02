@@ -15,10 +15,9 @@ class AttributesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request )
+    public function index()
     {
         $make['makes']=DB::table('makes')->get();
-
 
 
         return view('back.attribute.make_list',$make);
@@ -50,6 +49,9 @@ $request->validate([
         $make->make_name=$request->make_name;
         $make->make_slug=Str::slug($request->make_name);
         $make->save();
+
+    (toastr()->success('Have fun storming the castle!', 'Miracle Max Says'));
+
 
     }
 

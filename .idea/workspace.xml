@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f185fb1-99a4-416b-867e-7fb5f5554946" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/auto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/auto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AttributesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AttributesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back/attribute/make_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back/attribute/make_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/back/attribute/make_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back/attribute/make_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back/layouts/script.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back/layouts/script.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/back/layouts/style.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back/layouts/style.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +157,7 @@
       <updated>1606743330025</updated>
       <workItem from="1606743331498" duration="1043000" />
       <workItem from="1606803292046" duration="22007000" />
-      <workItem from="1606888574390" duration="10893000" />
+      <workItem from="1606888574390" duration="14902000" />
     </task>
     <servers />
   </component>
