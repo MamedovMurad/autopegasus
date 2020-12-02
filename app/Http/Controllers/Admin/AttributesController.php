@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Models\Make;
+use Illuminate\Support\Str;
 
 class AttributesController extends Controller
 {
@@ -13,9 +15,11 @@ class AttributesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request )
     {
         $make['makes']=DB::table('makes')->get();
+
+
 
         return view('back.attribute.make_list',$make);
     }
@@ -28,6 +32,7 @@ class AttributesController extends Controller
     public function create()
     {
 
+          return view('back.attribute.make_add');
     }
 
     /**
@@ -38,7 +43,14 @@ class AttributesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+$request->validate([
+    'make_name'=>'required|min:3|alpha'
+]);
+        $make=new Make;
+        $make->make_name=$request->make_name;
+        $make->make_slug=Str::slug($request->make_name);
+        $make->save();
+
     }
 
     /**
