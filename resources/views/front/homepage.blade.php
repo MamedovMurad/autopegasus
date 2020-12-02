@@ -674,7 +674,10 @@
       
         <form>
             <style>
-                form>.form>.row>.col-lg-2{
+                form>.form>.row>.col-lg-10>.row>.col-lg-3{
+                    padding: 10px
+                }
+                form>.form>.row>.col-lg-2>.row>.col-lg-12{
                     padding: 10px
                 }
             </style>
@@ -721,7 +724,7 @@
              </div>
              <div class="col-lg-2">
                  <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 ">
                     <button class="btn btn-block btn-danger">Axtarış et</button>
                   </div>
                   <div class="col-lg-12">
