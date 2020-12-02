@@ -724,8 +724,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   z-index: 99;
   width: 100%;
   top: 0;
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.842);
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   -webkit-animation-duration: 900ms;
@@ -966,8 +966,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .header_middle {
-  
-  padding: 5px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_middle {
@@ -976,7 +976,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .header_middle {
-    padding: 22px 0 20px;
+    height: 40px;
+    padding: 10px 0 20px;
   }
 }
 
@@ -1010,9 +1011,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .search_box {
   position: relative;
-  width: 660px;
+  width: 400px;
   background: #fff;
   border-radius: 5px;
+
  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1042,7 +1044,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border: 0;
   background: none;
   width: 100%;
-  height: 47px;
+  height: 35px;
   color: #9e9e9e;
   font-size: 13px;
   font-weight: 400;
@@ -1059,7 +1061,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   position: absolute;
   top: 0;
   right: 0;
-  background: #333;
+  background: rgba(221, 13, 13, 0.842);
   width: 60px;
   height: 100%;
   color: #fff;
@@ -1304,8 +1306,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*header middel css end*/
 /* 2.4 main menu css here */
 .header_bottom {
-  margin-bottom: 20px;
-  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+  height: 30px;
+  margin-bottom: 2px;
+  background-color: rgba(223, 219, 219, 0.274);
+  padding:none;
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_bottom {
@@ -1315,7 +1320,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .header_bottom {
+  display: none;
     margin-bottom: 0;
+    margin-bottom: 5px;
     box-shadow: none;
   }
 }
@@ -1334,7 +1341,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     display: none;
   }
 }
+.main_menu nav > ul {
+  margin-left: 14%;
+}
 .main_menu nav > ul > li {
+
   display: inline-block;
   position: relative;
 }
@@ -1356,8 +1367,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .main_menu nav > ul > li > a {
   display: block;
-  padding: 14px 20px 14px 20px;
-  font-size: 14px;
+  padding: 6px 20px 6px 20px;
+  font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
@@ -2228,6 +2239,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .header_b_three.sticky-header.sticky {
+   
     background: none;
   }
 }
@@ -2339,11 +2351,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /* 02. slider area css here */
 .single_slider {
+  margin-top: 5px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  height: 520px;
+  height: 320px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single_slider {
@@ -5188,10 +5201,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .header_shop .header_middel {
+    
     padding: 21px 0 18px;
   }
 }
 .header_shop .header_bottom {
+  
   padding: 0;
 }
 
@@ -5234,6 +5249,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border: 0;
 }
 @media only screen and (max-width: 767px) {
+  
   .sidebar_widget .single_banner {
     margin-bottom: 0;
   }
@@ -7382,6 +7398,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border: 0;
 }
 
+
 .card-body1 {
   margin-bottom: 15px;
 }
@@ -7428,6 +7445,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .wishlist_share ul li a:hover {
   color: #ffd54c;
 }
+.custom_card{
+  /* position: relative; */
+}
+.custom_card>.card-body>.text-right{
+/*   position: absolute;
+  top: 30px; */
+  
+}
 
 .wishlist_area {
   padding-bottom: 60px;
@@ -7452,6 +7477,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 @media only screen and (max-width: 767px) {
+
+  .card{
+    width: 150px !important;
+   
+  }
   .contact_message h3 {
     font-size: 20px;
     margin-bottom: 20px;
