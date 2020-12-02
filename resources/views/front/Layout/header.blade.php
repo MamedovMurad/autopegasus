@@ -107,7 +107,7 @@
                         <div class="main_menu header_position">
                             <nav>
                                 <ul>
-                                    <li><a href="javascript:void(0)">Trink sat!<i class="fa fa-angle-down"></i></a>
+                                    <li><a href="javascript:void(0)">Tez sat!<i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu">
                                             <li><a href="index.html">Teklif al</a></li>
                                       {{--       <li><a href="index-2.html">Home 2</a></li>
@@ -118,7 +118,7 @@
                                             <li class="home7new"><a href="index-7.html">Home 7</a><span>new</span></li> --}}
                                         </ul>
                                     </li>
-                                    <li class="mega_items"><a href="javascript:void(0)">Arac al<i class="fa fa-angle-down"></i></a>
+                                    <li class="mega_items"><a href="javascript:void(0)">Avtomobil al<i class="fa fa-angle-down"></i></a>
                                         <div class="mega_menu">
                                             <ul class="mega_menu_inner">
                                                 <li><a href="javascript:void(0)">Kategoriler</a>
@@ -158,9 +158,9 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="blog.html">arac sat!<i class="fa fa-angle-down"></i></a>
+                                    <li><a href="blog.html">Avtomobil  sat!<i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu pages">
-                                            <li><a href="blog-details.html">trink sat</a></li>
+                                            <li><a href="blog-details.html">Tez sat</a></li>
                                             <li><a href="blog-fullwidth.html">turbolar</a></li>
                                             <li><a href="blog-sidebar.html">arabam kac para</a></li>
                                         </ul>
@@ -204,7 +204,7 @@
                             <div class="search-container">
                                 <form action="#">
                                     <div class="search_box">
-                                        <input placeholder="Elan axtar ..." type="text">
+                                        <input placeholder="Almaq istədiyiniz modeli axtarın..." type="text">
                                         <button type="submit"><i class="ion-ios-search-strong"></i></button>
                                     </div>
                                 </form>

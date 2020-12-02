@@ -50,7 +50,7 @@ $request->validate([
         $make->make_slug=Str::slug($request->make_name);
         $make->save();
 
-    (toastr()->success('Have fun storming the castle!', 'Miracle Max Says'));
+/*     (toastr()->success('Have fun storming the castle!', 'Miracle Max Says')); */
 
 
     }
