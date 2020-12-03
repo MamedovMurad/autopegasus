@@ -493,11 +493,11 @@
     </section>
 
     <!--product area start-->
-    <section class="product_area mb-50">
+    <section class="product_area mb-50 " style="margin-left: 2%">
         <div class="container">
             <div class="row">
             
-                <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                      <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -506,7 +506,7 @@
                     </div>
                 </div>
 
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -514,7 +514,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -522,7 +522,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg"" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -530,7 +530,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -538,7 +538,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -546,7 +546,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -554,7 +554,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -562,7 +562,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -570,7 +570,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -578,7 +578,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -586,7 +586,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
