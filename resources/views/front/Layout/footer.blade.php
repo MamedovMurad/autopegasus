@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="widgets_container widget_menu">
-                        <h3>Quick links</h3>
+                
                         <div class="footer_menu">
                             <ul>
                                 <li><a href="about.html">Avtomobil Al</a></li>
@@ -40,10 +40,10 @@
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="widgets_container widget_menu">
-                        <h3>Extras</h3>
+                      
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="#">Haqqımızd</a></li>
+                                <li><a href="#">Haqqımızda</a></li>
                                 <li><a href="#">TezSat!</a></li>
                                 <li><a href="wishlist.html">100 Nöqtə Yoxlanışı</a></li>
                                 <li><a href="#">Kredit Şərtlərimiz</a></li>

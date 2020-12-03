@@ -39,6 +39,7 @@
     
     <!--modernizr min js here-->
     <script src="{{asset('/front/autima/')}}/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/b58e494fbb.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -107,8 +108,8 @@
                         <div class="main_menu header_position">
                             <nav>
                                 <ul>
-                                    <li><a href="javascript:void(0)">TezSat!<i class="fa fa-angle-down"></i></a>
-                                        <ul class="sub_menu">
+                                    <li><a href="javascript:void(0)">TezSat!<img style="width: 11px; margin-left:2px" src="{{asset('/front/autima/')}}/assets/img/auto-logo/icon.png" alt=""></a>
+                                        <ul class="sub_menu" style="width:0px !important; padding:8px 3px !important; ">
                                             <li><a href="index.html">Təklif al</a></li>
                                       {{--       <li><a href="index-2.html">Home 2</a></li>
                                             <li><a href="index-3.html">Home 3</a></li>
@@ -118,7 +119,7 @@
                                             <li class="home7new"><a href="index-7.html">Home 7</a><span>new</span></li> --}}
                                         </ul>
                                     </li>
-                                    <li class="mega_items"><a href="javascript:void(0)">AvtomoBİL al<i class="fa fa-angle-down"></i></a>
+                                    <li class="mega_items"><a href="javascript:void(0)">AvtomoBİL al<img style="width: 11px; margin-left:2px" src="{{asset('/front/autima/')}}/assets/img/auto-logo/icon.png" alt=""></a>
                                         <div class="mega_menu">
                                             <ul class="mega_menu_inner">
                                                 <li><a href="javascript:void(0)">Kateqorİyalar</a>
@@ -158,14 +159,14 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="blog.html">Avtomobİl  sat!<i class="fa fa-angle-down"></i></a>
+                                    <li><a href="blog.html">Avtomobİl  sat!<img style="width: 11px; margin-left:2px" src="{{asset('/front/autima/')}}/assets/img/auto-logo/icon.png" alt=""></a>
                                         <ul class="sub_menu pages">
                                             <li><a href="blog-details.html">TezSat!</a></li>
                                             <li><a href="blog-fullwidth.html">Maşınım neçəyə gedər?</a></li>
                                            
                                         </ul>
                                     </li>
-                                    <li><a href="#">XİDMƏTLƏRİMİZ <i class="fa fa-angle-down"></i></a>
+                                    <li><a href="#">XİDMƏTLƏRİMİZ <img style="width: 11px; margin-left:2px" src="{{asset('/front/autima/')}}/assets/img/auto-logo/icon.png" alt=""></a>
                                         <ul class="sub_menu pages">
                                             <li><a href="about.html">100 Nöqtə yoxlanışı</a></li>
                                             <li><a href="about.html">Kredİt</a></li>
@@ -197,15 +198,15 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6">
-                        <div class="logo">
+                        <div class="logo" style="margin-left: 12px">
                             <a href="index.html"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/Logo_Pegasus.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-6">
+                    <div class="col-lg-9 col-md-6" >
                         <div class="middel_right">
-                            <div class="search-container">
+                            <div class="search-container" >
                                 <form action="#">
-                                    <div class="search_box">
+                                    <div class="search_box" style="margin-left: 19%">
                                         <input placeholder="Almaq istədiyiniz modeli axtarın..." type="text">
                                         <button type="submit"><i class="ion-ios-search-strong"></i></button>
                                     </div>

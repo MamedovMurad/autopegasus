@@ -378,6 +378,7 @@
             <div class=" row">
                 <div class="col-12">
                     <div class="shipping_inner">
+                       <a href="">
                         <div class="single_shipping">
                             <div class="shipping_icone">
                                 <img src="{{asset('/front/autima/')}}/assets/img/about/shipping1.png" alt="">
@@ -387,6 +388,9 @@
                                 <p>Free shipping on all US order</p>
                             </div>
                         </div>
+
+                       </a>
+                    <a href="">
                         <div class="single_shipping">
                             <div class="shipping_icone">
                                 <img src="{{asset('/front/autima/')}}/assets/img/about/shipping2.png" alt="">
@@ -396,24 +400,27 @@
                                 <p>Contact us 24 hours a day</p>
                             </div>
                         </div>
-                        <div class="single_shipping">
-                            <div class="shipping_icone">
-                                <img src="{{asset('/front/autima/')}}/assets/img/about/shipping3.png" alt="">
-                            </div>
-                            <div class="shipping_content">
-                                <h2>Kredit</h2>
-                                <p>You have 30 days to Return</p>
-                            </div>
+                    </a>
+                      <a href="">  <div class="single_shipping">
+                        <div class="shipping_icone">
+                            <img src="{{asset('/front/autima/')}}/assets/img/about/shipping3.png" alt="">
                         </div>
-                        <div class="single_shipping">
-                            <div class="shipping_icone">
-                                <img src="{{asset('/front/autima/')}}/assets/img/about/shipping4.png" alt="">
-                            </div>
-                            <div class="shipping_content">
-                                <h2>100 Nöqtə</h2>
-                                <p>We ensure secure payment</p>
-                            </div>
+                        <div class="shipping_content">
+                            <h2>Kredit</h2>
+                            <p>You have 30 days to Return</p>
                         </div>
+                    </div></a>
+                   <a href="">
+                    <div class="single_shipping">
+                        <div class="shipping_icone">
+                            <img src="{{asset('/front/autima/')}}/assets/img/about/shipping4.png" alt="">
+                        </div>
+                        <div class="shipping_content">
+                            <h2>100 Nöqtə</h2>
+                            <p>We ensure secure payment</p>
+                        </div>
+                    </div>
+                   </a>
                     </div>
                 </div>
             </div>
@@ -427,7 +434,10 @@
       
         <form>
             <style>
-                form>.form>.row>.col-lg-10>.row>.col-lg-3{
+                form>.form>.row>.col-lg-10>.row>.col-lg-2{
+                    padding: 10px
+                }
+                form>.form>.row>.col-lg-10>.row>.col-lg-6{
                     padding: 10px
                 }
                 form>.form>.row>.col-lg-2>.row>.col-lg-12{
@@ -440,36 +450,98 @@
              <div class="col-lg-10">
               
                 <div class="row">
-                    <div class="col-lg-3">
-                        <select class="form-control" placeholder="First name"> 
+                    <div class="col-lg-2">
+                        <select class="form-control"  style="font-size: 15px ; padding:6px 0px ;"> 
+                            <option value="">Bütün markalar</option>
                             <option value="">Bmw</option>
                             <option value="">Mercedes</option>
                             <option value="">Porche</option>
                             <option value="">Audi</option>
                         </select>
                       </div>
-                    <div class="col-lg-3">
-                        <input type="text" class="form-control" placeholder="Last name">
+                    <div class="col-lg-6">
+                     
+                     <div class="row" style="padding:0">
+                         <div class="col-3" style="padding: 0">
+                            <div class="price_filter_area">
+                                <p class="form-control"  style="font-size: 15px; padding:5px 1px">Qiymet</p>
+                              
+                               </div>
+                         </div>
+                         <div class="col-3"  style="padding: 0">
+                            <div class="price_filter_area">
+                              
+                                <select class="form-control" style="padding: 5px 0" placeholder="First name"> 
+                                    <option value="">| Azn</option>
+                                    <option value="">Usd</option>
+                                
+                                </select>
+                               </div>
+                         </div>
+                         <div class="col-3"  style="padding: 0">
+                            <div class="price_filter_area">
+                                <input type="number" class="form-control" placeholder="min.">
+                               </div>
+                         </div>
+                         <div class="col-3"  style="padding: 0">
+                            <input type="number" class="form-control" placeholder="max.">
+                         </div>
+                     </div>
                       </div>
-                    <div class="col-lg-3">
-                        <input type="text" class="form-control" placeholder="Last name">
+                    <div class="col-lg-2" >
+                       <p class="form-control" >Kredit &nbsp; &nbsp;<input type="checkbox" style="width: 17px;height:17px; margin-top:0px" aria-label="Checkbox for following text input"></p>
                       </div>
                      
-                    <div class="col-lg-3">
-                        <input type="text" class="form-control" placeholder="Last name">
+                    <div class="col-lg-2">
+                        <select class="form-control " style="padding:0 2px"> 
+                            <option value="" >Bütün Şəhərlər</option>
+                            <option value="">Bakı</option>
+                            <option value="">Sumqayıt</option>
+                        </select>
                       </div>
-                    <div class="col-lg-3">
-                        <input type="text" class="form-control" placeholder="Last name">
+                    <div class="col-lg-2">
+                        <select class="form-control" placeholder="First name"  style="font-size: 15px ; padding:6px 0px ;"> 
+                            <option value="">Bütün modellər</option>
+                        
+                        </select>
                       </div>
                     
-                    <div class="col-lg-3">
-                        <input type="text" class="form-control" placeholder="Last name">
+                      <div class="col-lg-6 col-sm-9">
+                     
+                        <div class="row" style="padding:0">
+                            <div class="col-3" style="padding: 0">
+                               <div class="price_filter_area" style="overflow: hidden">
+                                   <p class="form-control"  style=" padding:9% 0px; height:28px">Buraxılış ili</p>
+                                 
+                                  </div>
+                            </div>
+                            <div class="col-3"  style="padding: 0">
+                               <div class="price_filter_area">
+                                 
+                                   <select class="form-control" style="padding: 5px 0" placeholder="First name"> 
+                                       <option value="">| Azn</option>
+                                       <option value="">Usd</option>
+                                   
+                                   </select>
+                                  </div>
+                            </div>
+                            <div class="col-3"  style="padding: 0">
+                               <div class="price_filter_area">
+                                   <input type="number" class="form-control" placeholder="min.">
+                                  </div>
+                            </div>
+                            <div class="col-3"  style="padding: 0">
+                               <input type="number" class="form-control" placeholder="max.">
+                            </div>
+                        </div>
+                         </div>
+                   
+                     <div class="col-lg-2">
+                        <p class="form-control" >Barter &nbsp; &nbsp;<input type="checkbox" style="width: 17px;height:17px; margin-top:0px" aria-label="Checkbox for following text input"></p>
+
                       </div>
-                    <div class="col-lg-3">
-                        <input type="text" class="form-control" placeholder="Last name">
-                      </div>
-                     <div class="col-lg-3">
-                        <input type="text" class="form-control" placeholder="Last name">
+                     <div class="col-lg-2">
+                        <p class="form-control text-danger" ><strong>Elan sayı</strong></p>
                       </div>
                 
                 </div>
@@ -493,11 +565,11 @@
     </section>
 
     <!--product area start-->
-    <section class="product_area mb-50 " style="margin-left: 2%">
+    <section class="product_area mb-50 ">
         <div class="container">
-            <div class="row">
+            <div class="row custom-flex">
             
-                <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                      <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -506,7 +578,7 @@
                     </div>
                 </div>
 
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -514,7 +586,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -522,7 +594,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg"" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -530,7 +602,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -538,7 +610,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -546,7 +618,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -554,7 +626,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -562,7 +634,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -570,7 +642,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -578,7 +650,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
@@ -586,7 +658,7 @@
                       <h4 class="text-danger text-right">200 azn</h4>
                     </div>
                   </div>
-                  <div class="card custom_card" style="width: 12.7rem; margin: 10px; height:287px;">
+                  <div class="card custom_card" style="width: 12.9rem; margin: 10px; height:287px;">
                     <img src="{{asset('/front/autima/')}}/assets/img/featured/featured.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4> <span>Bmw</span> | <span>550</span></h4>
