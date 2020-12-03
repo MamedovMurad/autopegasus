@@ -14,29 +14,26 @@
                             <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/Logo_Pegasus.png" alt=""></a>
                         </div>
                         <div class="footer_contact">
-                            <p>We are a team of designers and developers that
-                                create high quality Magento, Prestashop, Opencart...</p>
-                            <p style="margin:0; padding:0"><span>Address</span> Baş ofis: Dəmirçi Plaza 17-ci Mərtəbə
+                         
+                            <p style="margin:0; padding:0"><span>Ünvanlar</span> Baş ofis: Dəmirçi Plaza 17-ci Mərtəbə
                             <p style="margin: 0; padding:0">Satış mərkəzi: Ağa Centre 1-ci Mərtəbə</p></p>
-                            <p><span>Need Help?</span>Əlaqə: <a  href="tel:+994 70 319 04 04">+994 70 319 04 04 <br> </a>
+                            <p><span> Bizə Zəng Edin</span> <a  href="tel:+994 70 319 04 04">+994 70 319 04 04 <br> </a>
                                
-                            <a style="margin-left:43px" href="tel:+994 70 718 88 82">+994 70 718 88 82</a>
+                            <a  href="tel:+994 70 718 88 82">+994 70 718 88 82</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="widgets_container widget_menu">
-                        <h3>Information</h3>
+                        <h3>Quick links</h3>
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="#">Delivery Information</a></li>
-                                <li><a href="privacy-policy.html">privacy policy</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Gift Certificates</a></li>
+                                <li><a href="about.html">Avtomobil Al</a></li>
+                                <li><a href="#">Avtomobil Sat</a></li>
+                                <li><a href="privacy-policy.html">Ətraflı Axtarış</a></li>
+                                <li><a href="coming-soon.html">Ən Çox Soruşulan Suallar</a></li>
+                        
                             </ul>
                         </div>
                     </div>
@@ -46,18 +43,18 @@
                         <h3>Extras</h3>
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Order History</a></li>
-                                <li><a href="wishlist.html">Wish List</a></li>
-                                <li><a href="#">Newsletter</a></li>
-                                <li><a href="#">Affiliate</a></li>
-                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Haqqımızd</a></li>
+                                <li><a href="#">TezSat!</a></li>
+                                <li><a href="wishlist.html">100 Nöqtə Yoxlanışı</a></li>
+                                <li><a href="#">Kredit Şərtlərimiz</a></li>
+                                <li><a href="#">Barter</a></li>
+                                <li><a href="#">Test Drive</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="widgets_container">
+                 {{--    <div class="widgets_container">
                         <h3>Newsletter Subscribe</h3>
                         <p>We’ll never share your email address with a third-party.</p>
                         <div class="subscribe_form">
@@ -72,7 +69,7 @@
                                 <div class="mailchimp-error"></div><!-- mailchimp-error end -->
                             </div><!-- mailchimp-alerts end -->
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -80,13 +77,11 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="copyright_area">
-                        <p>Copyright &copy; 2020 <a href="#">Autima</a> All Right Reserved.</p>
+                        <p> Bütün Hüquqları Qorunur - 2020 ©</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="footer_payment text-right">
-                        <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/icon/payment.png" alt=""></a>
-                    </div>
+                   
                 </div>
             </div>
         </div>

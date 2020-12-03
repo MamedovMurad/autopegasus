@@ -34,10 +34,15 @@
     
     
 
+    
+
 -----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,400,400i,600,600i,700,700i,800,800i");
 * {
-  box-sizing: border-box;
+  
+    box-sizing: border-box;
 }
 
 /* transition */
@@ -566,7 +571,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .Offcanvas_menu_wrapper .search-container {
   display: block;
   margin-right: 0;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .Offcanvas_menu_wrapper .search_box {
   border: 1px solid #f0f0f0;
@@ -967,7 +972,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .header_middle {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  padding: 15px 0;
+  padding: 20px 0 20px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_middle {
@@ -990,8 +995,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .middel_right {
-    justify-content: center;
-    flex-direction: column;
+    justify-content: flex-end;
+;
   }
 }
 

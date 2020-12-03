@@ -341,26 +341,26 @@
                 </div> --}}
                 <div class="col-lg-12 col-md-12">
                     <div class="slider_area owl-carousel">
-                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/slider/slider1.jpg">
+                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/auto-logo/banner4.png">
                             <div class="slider_content">
-                                <h2>Top Quality</h2>
-                                <h1>Aftermarket Turbocharger Specialist</h1>
-                                <a class="button" href="shop.html">shopping now</a>
+                               {{--  <h2>Top Quality</h2>
+                                <h1>Aftermarket Turbocharger Specialist</h1> --}}
+                                {{-- <a class="button" href="shop.html">shopping now</a> --}}
                             </div>
 
                         </div>
-                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/slider/slider2.jpg">
+                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/auto-logo/banner3.png">
                             <div class="slider_content">
-                                <h2>Height - Quality</h2>
-                                <h1>The Parts Of shock Absorbers & Brake Kit</h1>
-                                <a class="button" href="shop.html">shopping now</a>
+                            {{--     <h2>Height - Quality</h2>
+                                <h1>The Parts Of shock Absorbers & Brake Kit</h1> --}}
+                               {{--  <a class="button" href="shop.html">shopping now</a> --}}
                             </div>
                         </div>
-                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/slider/slider3.jpg">
+                        <div class="single_slider d-flex align-items-center" data-bgimg="{{asset('/front/autima/')}}/assets/img/auto-logo/banner2.png">
                             <div class="slider_content">
-                                <h2>Engine Oils</h2>
-                                <h1>Top Quality Oil For Every Vehicle</h1>
-                                <a class="button" href="shop.html">shopping now</a>
+                                {{-- <h2>Engine Oils</h2>
+                                <h1>Top Quality Oil For Every Vehicle</h1> --}}
+                               {{--  <a class="button" href="shop.html">shopping now</a> --}}
                             </div>
                         </div>
                     </div>

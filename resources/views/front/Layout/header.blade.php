@@ -107,9 +107,9 @@
                         <div class="main_menu header_position">
                             <nav>
                                 <ul>
-                                    <li><a href="javascript:void(0)">Tez sat!<i class="fa fa-angle-down"></i></a>
+                                    <li><a href="javascript:void(0)">TezSat!<i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu">
-                                            <li><a href="index.html">Teklif al</a></li>
+                                            <li><a href="index.html">Təklif al</a></li>
                                       {{--       <li><a href="index-2.html">Home 2</a></li>
                                             <li><a href="index-3.html">Home 3</a></li>
                                             <li><a href="index-4.html">Home 4</a></li>
@@ -118,10 +118,10 @@
                                             <li class="home7new"><a href="index-7.html">Home 7</a><span>new</span></li> --}}
                                         </ul>
                                     </li>
-                                    <li class="mega_items"><a href="javascript:void(0)">Avtomobil al<i class="fa fa-angle-down"></i></a>
+                                    <li class="mega_items"><a href="javascript:void(0)">AvtomoBİL al<i class="fa fa-angle-down"></i></a>
                                         <div class="mega_menu">
                                             <ul class="mega_menu_inner">
-                                                <li><a href="javascript:void(0)">Kategoriler</a>
+                                                <li><a href="javascript:void(0)">Kateqorİyalar</a>
                                                     <ul>
                                                         <li><a href="shop-fullwidth.html">Avtomobil</a></li>
                                                         <li><a href="shop-fullwidth-list.html">SUV , Ofroader , Pikap</a></li>
@@ -130,7 +130,7 @@
                                                         <li><a href="shop-list.html">Elektrikli Avtomobil</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="javascript:void(0)">Kuzov Tipinə görə</a>
+                                                <li><a href="javascript:void(0)">Kuzov Tİpİnə görə</a>
                                                     <ul>
                                                         <li><a href="cart.html">Sedan</a></li>
                                                         <li><a href="wishlist.html">Hetçbek</a></li>
@@ -154,29 +154,31 @@
                                            
                                             </ul>
                                             <div class="banner_static_menu">
-                                                <a href="shop.html"><img src="{{asset('/front/autima/')}}/assets/img/bg/banner1.jpg" alt=""></a>
+                                                <a href="shop.html"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/banner.png" alt=""></a>
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="blog.html">Avtomobil  sat!<i class="fa fa-angle-down"></i></a>
+                                    <li><a href="blog.html">Avtomobİl  sat!<i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu pages">
-                                            <li><a href="blog-details.html">Tez sat</a></li>
-                                            <li><a href="blog-fullwidth.html">turbolar</a></li>
-                                            <li><a href="blog-sidebar.html">arabam kac para</a></li>
+                                            <li><a href="blog-details.html">TezSat!</a></li>
+                                            <li><a href="blog-fullwidth.html">Maşınım neçəyə gedər?</a></li>
+                                           
                                         </ul>
                                     </li>
                                     <li><a href="#">XİDMƏTLƏRİMİZ <i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu pages">
-                                            <li><a href="about.html">Arabam kac para</a></li>
+                                            <li><a href="about.html">100 Nöqtə yoxlanışı</a></li>
+                                            <li><a href="about.html">Kredİt</a></li>
+                                            <li><a href="about.html">Qİymətləndİrmə</a></li>
+                                            <li><a href="about.html">Barter</a></li>
+                                            <li><a href="about.html">Bİzİmlə satın</a></li>
+                                            <li><a href="about.html">Köhnə avtomobİl İlkİn ödənİş KİMİ</a></li>
+                                            <li><a href="about.html">TEST DRİVE</a></li>
+                                         
                          
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">Kompaniyalarimiz</a>
-                                        <ul class="sub_menu pages">
-                                            <li><a href="contact.html"> Autoclub arac temizliyi</a></li>
-                         
-                                        </ul>
-                                    </li>
+                                
                                    
                                 </ul>
                             </nav>
