@@ -157,7 +157,7 @@
     <!--Offcanvas menu area end-->
 
     <!--slider area start-->
-    <section class="slider_section">
+    <section class="slider_section mt-20">
         <div class="container">
          {{--    <div class="row">
                 <div class="col-lg-3 col-md-12">
@@ -384,8 +384,8 @@
                                 <img src="{{asset('/front/autima/')}}/assets/img/about/shipping1.png" alt="">
                             </div>
                             <div class="shipping_content">
-                                <h2>İndi sat</h2>
-                                <p>Free shipping on all US order</p>
+                                <h2>TezSat!</h2>
+                                <p>Avtomobilinizin qiymətində razılaşacaq, 1 saat ərzində pulunuz hesabınızda.  <br><span>Ətraflı</span></p>
                             </div>
                         </div>
 
@@ -396,8 +396,9 @@
                                 <img src="{{asset('/front/autima/')}}/assets/img/about/shipping2.png" alt="">
                             </div>
                             <div class="shipping_content">
-                                <h2>Avtomobilimin qiyməti ?</h2>
-                                <p>Contact us 24 hours a day</p>
+                                <h2>Sərfəli Kredit</h2>
+                                <p>36 aya qədər sərfəli kredit və lizinq şərtlərimiz işinizi rahatlaşdıracaq. <br> <br><span>Ətraflı</span></p>
+                           
                             </div>
                         </div>
                     </a>
@@ -406,9 +407,9 @@
                             <img src="{{asset('/front/autima/')}}/assets/img/about/shipping3.png" alt="">
                         </div>
                         <div class="shipping_content">
-                            <h2>Kredit</h2>
-                            <p>You have 30 days to Return</p>
-                        </div>
+                            <h2>100 Nöqtə Yoxlanışı</h2>
+                            <p>100 yoxlayıb, 1 alırıq, inamınızı doğrulduruq.</p>
+                            <span>Ətraflı</span></div>
                     </div></a>
                    <a href="">
                     <div class="single_shipping">
@@ -416,8 +417,9 @@
                             <img src="{{asset('/front/autima/')}}/assets/img/about/shipping4.png" alt="">
                         </div>
                         <div class="shipping_content">
-                            <h2>100 Nöqtə</h2>
-                            <p>We ensure secure payment</p>
+                            <h2>Barter</h2>
+                            <p>Barter xidmətinizdədir. Sizə zəhmətsiz alış təcrübəsini yaşadacağıq.</p>
+                            <span>Ətraflı</span>
                         </div>
                     </div>
                    </a>
@@ -451,12 +453,11 @@
               
                 <div class="row">
                     <div class="col-lg-2">
-                        <select class="form-control"  style="font-size: 15px ; padding:6px 0px ;"> 
-                            <option value="">Bütün markalar</option>
-                            <option value="">Bmw</option>
-                            <option value="">Mercedes</option>
-                            <option value="">Porche</option>
-                            <option value="">Audi</option>
+                 
+                        <select class="form-control " style="padding:0 2px"> 
+                            <option value="" >Bütün Şəhərlər</option>
+                            <option value="">Bakı</option>
+                            <option value="">Sumqayıt</option>
                         </select>
                       </div>
                     <div class="col-lg-6">
@@ -464,7 +465,7 @@
                      <div class="row" style="padding:0">
                          <div class="col-3" style="padding: 0">
                             <div class="price_filter_area">
-                                <p class="form-control"  style="font-size: 15px; padding:5px 1px">Qiymet</p>
+                                <p class="form-control"  style="font-size: 15px; padding:5px 1px">Qiymət</p>
                               
                                </div>
                          </div>
@@ -493,10 +494,12 @@
                       </div>
                      
                     <div class="col-lg-2">
-                        <select class="form-control " style="padding:0 2px"> 
-                            <option value="" >Bütün Şəhərlər</option>
-                            <option value="">Bakı</option>
-                            <option value="">Sumqayıt</option>
+                        <select class="form-control"  style="font-size: 15px ; padding:6px 0px ;"> 
+                            <option value="">Bütün markalar</option>
+                            <option value="">Bmw</option>
+                            <option value="">Mercedes</option>
+                            <option value="">Porche</option>
+                            <option value="">Audi</option>
                         </select>
                       </div>
                     <div class="col-lg-2">
@@ -518,9 +521,16 @@
                             <div class="col-3"  style="padding: 0">
                                <div class="price_filter_area">
                                  
-                                   <select class="form-control" style="padding: 5px 0" placeholder="First name"> 
-                                       <option value="">| Azn</option>
-                                       <option value="">Usd</option>
+                                   <select class="form-control" style="padding: 5px 0; overflow:y; height:10px !important"> 
+                                       <option value="">2000</option>
+                                       <option value="">1999</option>
+                                       <option value="">1998</option>
+                                       <option value="">1997</option>
+                                       <option value="">1996</option>
+                                       <option value="">1995</option>
+                                       <option value="">1994</option>
+                                       <option value="">1993</option>
+                                       <option value="">1992</option>
                                    
                                    </select>
                                   </div>
@@ -553,7 +563,7 @@
                     <button class="btn btn-block btn-danger">Axtarış et</button>
                   </div>
                   <div class="col-lg-12">
-                    <button class="btn btn-block btn-secondary"> Ətraflı Axtarış et</button>
+                  <a href="{{route('searchMore')}}"class="btn btn-block btn-secondary"> Ətraflı Axtarış et</a>
                   </div>
                 </div>
              </div>

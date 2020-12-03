@@ -110,13 +110,8 @@
                                 <ul>
                                     <li><a href="javascript:void(0)">TezSat!<img style="width: 11px; margin-left:2px" src="{{asset('/front/autima/')}}/assets/img/auto-logo/icon.png" alt=""></a>
                                         <ul class="sub_menu" style="width:0px !important; padding:8px 3px !important; ">
-                                            <li><a href="index.html">Təklif al</a></li>
-                                      {{--       <li><a href="index-2.html">Home 2</a></li>
-                                            <li><a href="index-3.html">Home 3</a></li>
-                                            <li><a href="index-4.html">Home 4</a></li>
-                                            <li><a href="index-5.html">Home 5</a></li>
-                                            <li><a href="index-6.html">Home 6</a></li>
-                                            <li class="home7new"><a href="index-7.html">Home 7</a><span>new</span></li> --}}
+                                            <li style="padding: 0 10px"><a href="index.html">Təklİf al</a></li>
+
                                         </ul>
                                     </li>
                                     <li class="mega_items"><a href="javascript:void(0)">AvtomoBİL al<img style="width: 11px; margin-left:2px" src="{{asset('/front/autima/')}}/assets/img/auto-logo/icon.png" alt=""></a>
@@ -295,6 +290,5 @@
         <!--mini cart end--> --}}
     
     </header>
-    <!--header area end--
-
+    
 <body>

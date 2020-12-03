@@ -13,6 +13,10 @@ use App\Http\Controllers\Front\HomePage;
 | contains the "web" middleware group. Now create something great!
 |
 */
+/* etrafli axtaris */
+
+Route::get('search-more',[HomePage::class,'moreSearch'])->name('searchMore');
+
 
 /*
 Route::get('/back/panel',[AdminDashboard::class,'index']);*/
