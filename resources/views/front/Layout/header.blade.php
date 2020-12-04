@@ -41,6 +41,8 @@
     <script src="{{asset('/front/autima/')}}/assets/js/vendor/modernizr-3.7.1.min.js"></script>
     <script src="https://kit.fontawesome.com/b58e494fbb.js" crossorigin="anonymous"></script>
 
+    @yield('css')
+
 </head>
 
 
@@ -194,7 +196,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6">
                         <div class="logo" style="margin-left: 12px">
-                            <a href="index.html"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/Logo_Pegasus.png" alt=""></a>
+                        <a href="{{route('front.index')}}"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/Logo_Pegasus.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-6" >
