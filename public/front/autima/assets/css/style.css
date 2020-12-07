@@ -1,19 +1,19 @@
 /*-----------------------------------------------------------------------------------
 
-    
+
     CSS INDEX
     =========================================
     01. header css here
     02. slider area css here
     03. product section css here
-    04. banner section css here 
+    04. banner section css here
     05. blog area css here
     06. newsletter area css here
     07. footer area css here
     08. shop page css here
-    09. error page css heer 
+    09. error page css heer
     10. about page css here
-    11. blog page css here 
+    11. blog page css here
     12. blog details css here
     13. cart page css here
     14. checkout page css here
@@ -31,18 +31,19 @@
     26. privacy policy css here
     27. coming-soon css here
     28. instagram css here
-    
-    
 
-    
+
+
+
 
 -----------------------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,400,400i,600,600i,700,700i,800,800i");
 * {
-  font-family:Montserrat !important ;
+  font-family:Montserrat ;
     box-sizing: border-box;
+
 }
 
 /* transition */
@@ -68,7 +69,7 @@ body {
   font-style: normal;
   font-weight: 400;
   visibility: visible;
-  font-family: "Open Sans", sans-serif;
+
   color: #333;
   letter-spacing: -0.025em;
 }
@@ -76,7 +77,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-top: 0;
-  font-family: "Lato", sans-serif;
+
 }
 
 h1 {
@@ -155,7 +156,7 @@ ul {
   padding: 0;
 }
 
-/*-- 
+/*--
     - Common Classes
 -----------------------------------------*/
 .fix {
@@ -208,7 +209,7 @@ ul {
   margin: 0;
 }
 
-/*-- 
+/*--
     - Background color
 -----------------------------------------*/
 .bg-white {
@@ -254,10 +255,10 @@ ul {
   height: 100%;
 }
 
-/*-- 
+/*--
     - color
 -----------------------------------------*/
-/*-- 
+/*--
     - Input Placeholder
 -----------------------------------------*/
 input:-moz-placeholder, textarea:-moz-placeholder {
@@ -280,8 +281,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-/*-- 
-    Scroll Up 
+/*--
+    Scroll Up
 -----------------------------------------*/
 #scrollUp {
   background: #ffd54c none repeat scroll 0 0;
@@ -309,7 +310,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   animation-iteration-count: infinite;
 }
 
-/*-- 
+/*--
     - Main Wrapper
 -----------------------------------------*/
 .main-wrapper.header-transparent {
@@ -317,7 +318,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin: 0 !important;
 }
 
-/*-- 
+/*--
     - Section Padding
 -------------------------------------*/
 .section-ptb {
@@ -1020,7 +1021,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background: #fff;
   border-radius: 5px;
 
- 
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .search_box {
@@ -1315,7 +1316,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-bottom: 2px;
   background-color: rgba(223, 219, 219, 0.274);
   padding:none;
-  
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_bottom {
@@ -1377,7 +1378,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main_menu nav > ul > li > a {
@@ -1412,7 +1413,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   display: block;
   line-height: 30px;
   text-transform: uppercase;
-  font-family: "Lato", sans-serif;
+
   font-size: 13px;
 }
 .main_menu nav > ul > li ul.sub_menu li a:hover {
@@ -1479,7 +1480,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+
   display: block;
   margin-bottom: 8px;
 }
@@ -1588,7 +1589,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   content: "\f394";
   color: #fff;
   display: inline-block;
-  font-family: Ionicons;
+
   position: absolute;
   font-size: 25px;
   line-height: 0px;
@@ -1600,7 +1601,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   content: "\f3d0";
   color: #fff;
   display: inline-block;
-  font-family: Ionicons;
+
   position: absolute;
   font-size: 14px;
   line-height: 0px;
@@ -1621,7 +1622,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   cursor: pointer;
   margin-bottom: 0;
   display: inline-block;
-  font-family: "Lato", sans-serif;
+
 }
 
 .categories_menu_toggle {
@@ -2244,7 +2245,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .header_b_three.sticky-header.sticky {
-   
+
     background: none;
   }
 }
@@ -2434,7 +2435,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 48px;
   font-weight: 700;
   margin-bottom: 0;
-  font-family: "Lato", sans-serif;
+
   max-width: 355px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2452,7 +2453,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .slider_content h2 {
   margin-bottom: 10px;
-  font-family: "Lato", sans-serif;
+
   font-weight: 400;
   font-style: italic;
   font-size: 24px;
@@ -2492,7 +2493,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 47px;
   padding: 0 25px;
   display: inline-block;
-  font-family: "Lato", sans-serif;
+
   border-radius: 5px;
 }
 .slider_content a:hover {
@@ -2593,7 +2594,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 1;
   font-weight: 700;
   margin-bottom: 0;
-  font-family: "Lato", sans-serif;
+
   max-width: 355px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2610,7 +2611,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .slider_six .slider_content h2 {
   margin-bottom: 10px;
-  font-family: "Lato", sans-serif;
+
   font-weight: 400;
   font-style: italic;
   font-size: 22px;
@@ -2649,7 +2650,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 47px;
   padding: 0 25px;
   display: inline-block;
-  font-family: "Lato", sans-serif;
+
   border-radius: 5px;
 }
 .slider_six .slider_content a:hover {
@@ -2786,7 +2787,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 21px;
-  font-family: "Lato", sans-serif;
+
   width: 220px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2816,7 +2817,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 3px;
-  font-family: "Lato", sans-serif;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner_text h3 {
@@ -2841,7 +2842,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   pointer-events: visible;
-  font-family: "Lato", sans-serif;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner_text a {
@@ -2951,7 +2952,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .banner_fullwidth .banner_text p {
   font-size: 18px;
   line-height: 25px;
-  font-family: "Lato", sans-serif;
+
   font-weight: 300;
   margin-bottom: 35px;
 }
@@ -3282,7 +3283,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   position: relative;
   display: block;
   padding: 0 15px;
-  font-family: "Lato", sans-serif;
+
 }
 @media only screen and (max-width: 767px) {
   .section_title ul.product_tab_button li a {
@@ -3483,7 +3484,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
   margin: 15px 0 4px 0;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -3613,7 +3614,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .featured_content h3 {
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+
   line-height: 22px;
   margin-bottom: 8px;
 }
@@ -3638,7 +3639,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .featured_content > a::before {
   position: absolute;
   content: "\f362";
-  font-family: "Ionicons";
+
   font-size: 16px;
   font-weight: 400;
   margin-left: 4px;
@@ -3670,7 +3671,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
   margin-bottom: 15px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -3775,7 +3776,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .call_text h3 {
   font-size: 30px;
   line-height: 39px;
-  font-family: "Open Sans", sans-serif;
+
   text-transform: capitalize;
   margin-bottom: 3px;
 }
@@ -3935,7 +3936,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .product_tab_button.tab_button2 li a {
   font-size: 26px;
   line-height: 33px;
-  font-family: "Lato", sans-serif;
+
   color: #333;
   background: #f6f6f6;
   position: relative;
@@ -4246,7 +4247,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 400;
   padding-bottom: 17px;
   position: relative;
-  font-family: "Open Sans", sans-serif;
+
 }
 .blog_content h3 a:hover {
   color: #ffd54c;
@@ -4515,7 +4516,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 4px;
-  font-family: "Open Sans", sans-serif;
+
 }
 .shipping_content p {
   font-size: 13px;
@@ -4762,7 +4763,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-bottom: 18px;
   text-transform: capitalize;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
+
 }
 @media only screen and (max-width: 767px) {
   .widgets_container h3 {
@@ -5217,12 +5218,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .header_shop .header_middel {
-    
+
     padding: 21px 0 18px;
   }
 }
 .header_shop .header_bottom {
-  
+
   padding: 0;
 }
 
@@ -5265,7 +5266,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border: 0;
 }
 @media only screen and (max-width: 767px) {
-  
+
   .sidebar_widget .single_banner {
     margin-bottom: 0;
   }
@@ -6501,7 +6502,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: uppercase;
   font-weight: 500;
   color: #333;
-  font-family: "Lato", sans-serif;
+
 }
 
 .s-tab-zoom.owl-carousel .owl-nav {
@@ -7467,7 +7468,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .custom_card>.card-body>.text-right{
 /*   position: absolute;
   top: 30px; */
-  
+
 }
 
 .wishlist_area {
@@ -7496,7 +7497,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
   .card{
     width: 150px !important;
-   
+
   }
   .contact_message h3 {
     font-size: 20px;
@@ -8438,7 +8439,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .blog_wrapper .blog_content h3 {
   font-size: 21px;
   line-height: 27px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 400;
   padding: 0;
   margin-bottom: 19px;

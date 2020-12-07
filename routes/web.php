@@ -15,6 +15,7 @@ use App\Http\Controllers\Front\HomePage;
 */
 /* etrafli axtaris */
 
+Route::get('car-detail',[HomePage::class,'carDetail'])->name('carDetail');
 Route::get('search-more',[HomePage::class,'moreSearch'])->name('searchMore');
 
 

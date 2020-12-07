@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html  lang="tr">
 
 
 <head>
@@ -8,10 +8,13 @@
     <title>Autima - Car Accessories Shop HTML Template </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    @yield('css')
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/front/autima/')}}/assets/img/favicon.ico">
 
-     <!-- CSS 
+
+    <script src="https://kit.fontawesome.com/b58e494fbb.js" crossorigin="anonymous"></script>
+     <!-- CSS
     ========================= -->
      <!--bootstrap min css-->
      <link rel="stylesheet" href="{{asset('/front/autima/')}}/assets/css/bootstrap.min.css">
@@ -22,7 +25,7 @@
     <!--magnific popup min css-->
     <link rel="stylesheet" href="{{asset('/front/autima/')}}/assets/css/magnific-popup.css">
     <!--font awesome css-->
-    <link rel="stylesheet" href="{{asset('/front/autima/')}}/assets/css/font.awesome.css">
+
     <!--ionicons min css-->
     <link rel="stylesheet" href="{{asset('/front/autima/')}}/assets/css/ionicons.min.css">
     <!--animate css-->
@@ -33,15 +36,15 @@
     <link rel="stylesheet" href="{{asset('/front/autima/')}}/assets/css/slinky.menu.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="{{asset('/front/autima/')}}/assets/css/plugins.css">
-    
+
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="{{asset('/front/autima/')}}/assets/css/style.css">
-    
+
     <!--modernizr min js here-->
     <script src="{{asset('/front/autima/')}}/assets/js/vendor/modernizr-3.7.1.min.js"></script>
-    <script src="https://kit.fontawesome.com/b58e494fbb.js" crossorigin="anonymous"></script>
 
-    @yield('css')
+
+
 
 </head>
 
@@ -50,7 +53,7 @@
 
     <!-- Main Wrapper Start -->
     <!--header area start-->
-    <header class="header_area"> {{-- 
+    <header class="header_area"> {{--
         <!--header top start-->
         <div class="header_top">
             <div class="container">
@@ -101,7 +104,7 @@
             </div>
         </div> --}}
         <!--header top start-->
-            
+
         <!--header bottom satrt-->
         <div class="header_bottom sticky-header">
             <div class="container">
@@ -145,11 +148,11 @@
                                                         <li><a href="product-details.html">Məsləhətli nə var?</a></li>
                                                         <li><a href="product-sidebar.html">Maşınım neçeye gedər?</a></li>
                                                         <li><a href="product-grouped.html">Markalar</a></li>
-                   
+
 
                                                     </ul>
                                                 </li>
-                                           
+
                                             </ul>
                                             <div class="banner_static_menu">
                                                 <a href="shop.html"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/banner.png" alt=""></a>
@@ -160,7 +163,7 @@
                                         <ul class="sub_menu pages">
                                             <li><a href="blog-details.html">TezSat!</a></li>
                                             <li><a href="blog-fullwidth.html">Maşınım neçəyə gedər?</a></li>
-                                           
+
                                         </ul>
                                     </li>
                                     <li><a href="#">XİDMƏTLƏRİMİZ <img style="width: 11px; margin-left:2px" src="{{asset('/front/autima/')}}/assets/img/auto-logo/icon.png" alt=""></a>
@@ -171,13 +174,13 @@
                                             <li><a href="about.html">Barter</a></li>
                                             <li><a href="about.html">Bİzİmlə satın</a></li>
                                             <li><a href="about.html">Köhnə avtomobİl İlkİn ödənİş KİMİ</a></li>
-                                            <li><a href="about.html">TEST DRİVE</a></li>
-                                         
-                         
+                                            <li><a href="about.html">TEST DRİVE <i class="far fa-arrow-alt-circle-up"></i></a></li>
+
+
                                         </ul>
                                     </li>
-                                
-                                   
+
+
                                 </ul>
                             </nav>
                         </div>
@@ -218,7 +221,7 @@
                                 <div class="mini_cart_wrapper">
                                     <a href="javascript:void(0)"><span class="lnr lnr-cart"></span>My Cart </a>
                                     <span class="cart_quantity">2</span>
-                                    
+
                                 </div>
                             </div> --}}
 
@@ -228,7 +231,7 @@
             </div>
         </div>
         <!--header middel end-->
-        
+
 {{--         <!--mini cart-->
         <div class="mini_cart">
             <div class="cart_close">
@@ -290,7 +293,13 @@
 
         </div>
         <!--mini cart end--> --}}
-    
+
     </header>
-    
+
 <body>
+<style>
+    .custom-scroll{
+        font-family: FontAwesome !important;
+        font-size: 20px
+    }
+</style>

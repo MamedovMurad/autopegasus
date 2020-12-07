@@ -14,11 +14,11 @@
                             <a href="#"><img src="{{asset('/front/autima/')}}/assets/img/auto-logo/Logo_Pegasus.png" alt=""></a>
                         </div>
                         <div class="footer_contact">
-                         
+
                             <p style="margin:0; padding:0"><span>Ünvanlar</span> Baş ofis: Dəmirçi Plaza 17-ci Mərtəbə
                             <p style="margin: 0; padding:0">Satış mərkəzi: Ağa Centre 1-ci Mərtəbə</p></p>
                             <p><span> Bizə Zəng Edin</span> <a  href="tel:+994 70 319 04 04">+994 70 319 04 04 <br> </a>
-                               
+
                             <a  href="tel:+994 70 718 88 82">+994 70 718 88 82</a>
                             </p>
                         </div>
@@ -26,21 +26,21 @@
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="widgets_container widget_menu">
-                
+
                         <div class="footer_menu">
                             <ul>
                                 <li><a href="about.html">Avtomobil Al</a></li>
                                 <li><a href="#">Avtomobil Sat</a></li>
                                 <li><a href="privacy-policy.html">Ətraflı Axtarış</a></li>
                                 <li><a href="coming-soon.html">Ən Çox Soruşulan Suallar</a></li>
-                        
+
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="widgets_container widget_menu">
-                      
+
                         <div class="footer_menu">
                             <ul>
                                 <li><a href="#">Haqqımızda</a></li>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                   
+
                 </div>
             </div>
         </div>
@@ -116,6 +116,8 @@
 <!-- Main JS -->
 <script src="{{asset('/front/autima/')}}/assets/js/main.js"></script>
 
+
+@yield('script')
 
 
 
