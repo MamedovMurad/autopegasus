@@ -280,7 +280,25 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
-
+.product_d_right>ul>li{
+    padding: 5px;
+    border: solid  1px rgb(34, 37, 238);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.col-lg-3>li.custom-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.col-lg-3>li.custom-detail>i.fa-check{
+    color: green;
+}
+.col-lg-3>li.custom-detail>i.fa-minus{
+    color: red;
+}
 /*--
     Scroll Up
 -----------------------------------------*/
